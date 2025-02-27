@@ -1,9 +1,9 @@
-package exercise.dolfin;
+package exercise.dolphin;
 import exercise.animal.Animal;
 
-public class Dolfin extends Animal{
+public class Dolphin extends Animal{
 
-    public Dolfin(boolean mammal){
+    public Dolphin(boolean mammal){
         super(mammal);
     };
 

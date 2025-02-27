@@ -1,5 +1,23 @@
+import exercise.bird.Bird;
+import exercise.dog.Dog;
+import exercise.dolphin.Dolphin;
+import exercise.eagle.Eagle;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Eagle e = new Eagle(false);
+        Bird b = new Bird(false);
+        Dog d = new Dog(true);
+        Dolphin dd = new Dolphin(false);
+
+        e.mangia();
+        e.verso();
+        b.mangia();
+        b.verso();
+        d.mangia();
+        d.verso();
+        dd.mangia();
+        dd.verso();
+         
     }
 }
