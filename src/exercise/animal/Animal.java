@@ -16,4 +16,13 @@ public abstract class Animal {
 
     //(mostra a video quello che mangia : erba, carne, ...?
     public abstract void mangia();
+
+    public boolean isMammal() {
+        return mammal;
+    }
+
+    public void setMammal(boolean mammal) {
+        this.mammal = mammal;
+    }
+
 }
