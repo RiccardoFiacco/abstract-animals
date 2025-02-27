@@ -1,7 +1,8 @@
 package exercise.bird;
 import exercise.animal.Animal;
+import exercise.interfaces.Winged;
 
-public class Bird extends Animal{
+public class Bird extends Animal implements Winged{
 
     public Bird(boolean mammal){
         super(mammal);
@@ -15,5 +16,10 @@ public class Bird extends Animal{
     @Override
     public void mangia() {
         System.out.println("mangia i semi");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("sto volando!!");
     }
 }
